@@ -1,0 +1,43 @@
+Decision Trees:
+    -There are instances of decision trees being used to do things such as choosing
+     candidates for employment, and performing(Devasenapathy & Duraisamy, 2017).
+    -Decision trees are very good at matching the data that is presented to them and given
+     enough leaves and data they will match
+     a training set precisely, this unfortunately makes them very good at overfitting.
+    -As mentioned previously learning trees are prone to variance and must therefore be
+     pruned to some extent to reduce this variance. They also tend to perform much better on
+     data that has very clear distinctions that can be split across.
+    -Here I anticipate a decision tree to perform well because of the country of a few
+     features such as working class and education level that will provide good splitting
+     points.
+Random Forests:
+    -Random forests have been used in many ways to model people including to indicate weather
+     or not someone is likely to default(Ghatasheh, 2014).
+    -Random forests have the advantage of generalizing the data well and show much less
+     variance than individual trees.
+    -The disadvantage is that they are built on partial data so they do not retain the same
+     level of fit on training data that can be achieved with decision trees. they also
+     consume more time and resources.
+    -Here Random forests will preform well for the same reason as decision trees. Even in
+     smaller subsets of the data there are many good features to split on to create a good
+     random forest model.
+K-Nearest Neighbors:
+    -KNN has in many instances been applied to textual analysis(Trstenjak, Mikac, & Donko, 2014).
+    -KNN is good because it is fast when making predictions and able to make accurate
+     predictions based on data with no linear correlation to data.
+    -KNN is bad because there are many instances where it fails to see important
+     underlying features that other models would catch and is therefore prone to underfitting
+     in some instances.
+    -KNN will work well for this data because features like education level and work hours
+     will create groupings that KNN can use to generalize well to the data.
+
+
+Devasenapathy, K., & Duraisamy, S. (2017). Evaluating the Performance of Teaching Assistant
+    Using Decision Tree ID3 Algorithm. International Journal of Computer Applications, 164(7),
+    23-27. doi:10.5120/ijca2017913658
+Ghatasheh, N. (2014). Business Analytics using Random Forest Trees for Credit Risk
+    Prediction: A Comparison Study. International Journal of Advanced Science and Technology, 72,
+    19-30. doi:10.14257/ijast.2014.72.02
+Trstenjak, B., Mikac, S., & Donko, D. (2014). KNN with TF-IDF based Framework for Text
+    Categorization. Procedia Engineering, 69, 1356-1364. doi:10.1016/j.proeng.2014.03.129
+
